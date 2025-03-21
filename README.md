@@ -1,5 +1,3 @@
-
-```markdown
 # Heart Disease Prediction Web Application
 
 ![GitHub](https://img.shields.io/github/license/Moonshot-AI/heart-disease-prediction-app)
