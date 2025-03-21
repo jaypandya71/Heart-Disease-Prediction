@@ -1,4 +1,9 @@
+
 # Heart Disease Prediction Web Application
+
+![GitHub](https://img.shields.io/github/license/Moonshot-AI/heart-disease-prediction-app)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/streamlit-1.0+-blue.svg)
 
 ## Introduction
 
@@ -13,28 +18,36 @@ This Streamlit-based web application predicts the likelihood of heart disease ba
 - **ROC Curve**: Displays the Receiver Operating Characteristic (ROC) curve to evaluate the model's discrimination ability.
 - **Data Storage**: Saves user inputs and predictions for future reference.
 
-## Snapshots
+## Snapshots and Detailed Descriptions
 
-### 1. ROC Curve Analysis
-- Displays the Receiver Operating Characteristic (ROC) curve.
-- AUC (Area Under Curve) is 0.96, indicating excellent model performance.
+### 1. Dataset Overview and Data Statistics
+- **Overview**: Provides a sample of the dataset used for training the model.
+- **Statistics**: Displays summary statistics including mean, standard deviation, min, max, and percentiles for each feature.
 ![Heart-Disease-Prediction](Snapshots/1.png)
 
-### 2. Model Learning Curves
-- Visualizes how the model's performance improves with more training data.
-- Shows training and validation accuracy and error rates.
+### 2. User Input Interface
+- **Interface**: Users can input their health information using sliders, radio buttons, and dropdown menus.
+- **Features**: Includes age, sex, cholesterol levels, blood pressure, and other relevant health metrics.
 ![Heart-Disease-Prediction](Snapshots/2.png)
 
-### 3. Prediction Results
-- Displays the prediction result and model accuracy.
+### 3. Prediction Result and All Classified Data
+- **Prediction Result**: Shows whether the user might have heart disease along with the prediction probabilities.
+- **All Classified Data**: Displays a table of all user inputs and their corresponding predictions.
 ![Heart-Disease-Prediction](Snapshots/3.png)
 
-### 4. User Input Interface
-- Users can input their health information.
+### 4. Model Learning Curves
+- **Learning Curves**: Visualizes how the model's performance improves with more training data.
+- **Details**:
+  - Blue lines represent training performance.
+  - Orange lines represent validation performance.
+  - Shaded areas represent performance variance.
 ![Heart-Disease-Prediction](Snapshots/4.png)
 
-### 5. Heart Disease Dataset Overview
-- Provides a sample of the dataset and summary statistics.
+### 5. ROC Curve Analysis
+- **ROC Curve**: Displays the Receiver Operating Characteristic curve to evaluate the model's discrimination ability.
+- **Metrics**:
+  - AUC (Area Under Curve): 0.96
+  - Precision, Recall, and F1-Score for both classes (No Heart Disease and Heart Disease).
 ![Heart-Disease-Prediction](Snapshots/5.png)
 
 ## How to Run
@@ -48,10 +61,11 @@ To run the application, follow these steps:
    ```
 
 2. **Install Dependencies**:
+   Install the necessary Python packages by running the following command:
    ```bash
    pip install -r requirements.txt
    ```
-   The `requirements.txt` file should include:
+   The `requirements.txt` file should include the following packages:
    ```
    streamlit==1.0.0
    pandas==1.3.3
@@ -62,9 +76,11 @@ To run the application, follow these steps:
    ```
 
 3. **Run the Application**:
+   Start the Streamlit application by running:
    ```bash
    streamlit run app2.py
    ```
 
 4. **Access the Application**:
    Open your web browser and go to `http://localhost:8501` to use the application.
+
