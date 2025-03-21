@@ -22,7 +22,7 @@ This Streamlit-based web application predicts the likelihood of heart disease ba
 - **Statistics**: Displays summary statistics including mean, standard deviation, min, max, and percentiles for each feature.
 
 ![Heart-Disease-Prediction](Snapshots/00.png)
-![Heart-Disease-Prediction](Snapshots/01.png)
+![Heart-Disease-Prediction](Snapshots/02.png)
 
 ### 2. User Input Interface
 - **Interface**: Users can input their health information using sliders, radio buttons, and dropdown menus.
