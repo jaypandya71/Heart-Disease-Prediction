@@ -1,9 +1,6 @@
 
 # Heart Disease Prediction Web Application
 
-![GitHub](https://img.shields.io/github/license/Moonshot-AI/heart-disease-prediction-app)
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-1.0+-blue.svg)
 
 ## Introduction
 
@@ -23,17 +20,22 @@ This Streamlit-based web application predicts the likelihood of heart disease ba
 ### 1. Dataset Overview and Data Statistics
 - **Overview**: Provides a sample of the dataset used for training the model.
 - **Statistics**: Displays summary statistics including mean, standard deviation, min, max, and percentiles for each feature.
+
+![Heart-Disease-Prediction](Snapshots/00.png)
 ![Heart-Disease-Prediction](Snapshots/01.png)
 
 ### 2. User Input Interface
 - **Interface**: Users can input their health information using sliders, radio buttons, and dropdown menus.
 - **Features**: Includes age, sex, cholesterol levels, blood pressure, and other relevant health metrics.
-![Heart-Disease-Prediction](Snapshots/2.png)
+
+![Heart-Disease-Prediction](Snapshots/03.png)
 
 ### 3. Prediction Result and All Classified Data
 - **Prediction Result**: Shows whether the user might have heart disease along with the prediction probabilities.
 - **All Classified Data**: Displays a table of all user inputs and their corresponding predictions.
-![Heart-Disease-Prediction](Snapshots/3.png)
+
+![Heart-Disease-Prediction](Snapshots/04.png)
+![Heart-Disease-Prediction](Snapshots/05.png)
 
 ### 4. Model Learning Curves
 - **Learning Curves**: Visualizes how the model's performance improves with more training data.
@@ -41,14 +43,18 @@ This Streamlit-based web application predicts the likelihood of heart disease ba
   - Blue lines represent training performance.
   - Orange lines represent validation performance.
   - Shaded areas represent performance variance.
-![Heart-Disease-Prediction](Snapshots/4.png)
+    
+![Heart-Disease-Prediction](Snapshots/06.png)
+![Heart-Disease-Prediction](Snapshots/07.png)
 
 ### 5. ROC Curve Analysis
 - **ROC Curve**: Displays the Receiver Operating Characteristic curve to evaluate the model's discrimination ability.
 - **Metrics**:
   - AUC (Area Under Curve): 0.96
   - Precision, Recall, and F1-Score for both classes (No Heart Disease and Heart Disease).
-![Heart-Disease-Prediction](Snapshots/5.png)
+
+![Heart-Disease-Prediction](Snapshots/08.png)
+![Heart-Disease-Prediction](Snapshots/09.png)
 
 ## How to Run
 
